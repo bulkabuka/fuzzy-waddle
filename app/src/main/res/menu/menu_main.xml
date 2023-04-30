@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="blkbk.fuzzy_waddle.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="Настройки" />
+    <item
+        android:id="@+id/save_settings"
+        android:orderInCategory="3"
+        android:title="Сохранить" />
+    <item
+        android:id="@+id/open_settings"
+        android:orderInCategory="2"
+        android:title="Открыть" />
+    <item
+        android:id="@+id/marathon"
+        android:orderInCategory="4"
+        android:title="Марафон" />
+    <item
+        android:id="@+id/log"
+        android:orderInCategory="5"
+        android:title="Лог" />
+</menu>
